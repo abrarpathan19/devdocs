@@ -179,6 +179,8 @@ If you need to import a remote CSS file in your `.less` source, use `url()` nota
 
 This way Magento will skip the `@import` directive while resolving paths to the local resources.
 
+To [include the font]({{ page.baseurl }}/frontend-dev-guide/css-topics/using-fonts.html) in your theme's CSS files, use the `@font-face` CSS rule for the fastest loading time.
+
 ## The @magento_import directive {#fedg_css-magento-import}
 
 `@magento_import` is a Magento-specific LESS directive that allows including multiple files by a name pattern. It is used to include files with the same name from the different locations, for example, different modules.
