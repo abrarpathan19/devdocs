@@ -14,6 +14,7 @@ This topic features a step-by-step illustration of how to change a theme's color
 OrangeCo created a custom theme that inherits from the Magento basic Blank theme.
 The following image illustrates how store pages look when the Blank theme is applied:
 
+![Header icon and Navigation]
 ![product page when Blank applied]
 
 In their Grey theme, OrangeCo wants to change the color scheme from white to grey.
@@ -73,4 +74,5 @@ After the Grey theme is applied (and [static files cache cleared]), store pages 
 
 [product page when Blank applied]: {{site.baseurl}}/common/images/practice_blank.png
 [product page when Grey applied]: {{site.baseurl}}/common/images/css_practice.png
+[Header icon and Navigation]: {{site.baseurl}}/common/images/nav-header.png
 [static files cache cleared]: {{page.baseurl}}/frontend-dev-guide/cache_for_frontdevs.html#clean_static_cache
